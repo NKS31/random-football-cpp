@@ -89,11 +89,11 @@ int checkMatch(int getno[])
     {
         if (getno[i]==getRandomNumber())
     {
-        result=1
+        result=1;
     }
         else
     {
-        result=0
+        result=0;
     }
          
     return result;
